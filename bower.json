@@ -1,5 +1,5 @@
 {
-    "name": "005",
+    "name": "ngTagsInput test",
     "version": "0.0.1",
     "dependencies": {
         "ng-tags-input": "3.0.0"
