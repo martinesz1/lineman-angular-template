@@ -11,6 +11,7 @@ module.exports = function(lineman) {
     js: {
       vendor: [
         "vendor/js/angular.js",
+        "vendor/bower/ng-tags-input/ng-tags-input.js",
         "vendor/js/**/*.js"
       ],
       app: [
@@ -22,7 +23,12 @@ module.exports = function(lineman) {
     less: {
       compile: {
         options: {
-          paths: ["vendor/css/normalize.css", "vendor/css/**/*.css", "app/css/**/*.less"]
+          paths: [
+            "vendor/bower/ng-tags-input/ng-tags-input.css",
+            "vendor/css/normalize.css", 
+            "vendor/css/**/*.css", 
+            "app/css/**/*.less"
+          ]
         }
       }
     }
